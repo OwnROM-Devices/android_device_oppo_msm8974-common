@@ -174,3 +174,18 @@ BOARD_SEPOLICY_DIRS += \
         device/oppo/msm8974-common/sepolicy
 
 -include vendor/oppo/msm8974-common/BoardConfigVendor.mk
+
+#OwnROM Optimizations
+OWN_OPTI := true
+
+OWN_O3 := true
+
+OWN_STRICT := true
+
+OWN_GRAPHITE := true
+
+OWN_KRAIT := true
+
+OWN_PIPE := true
+
+TARGET_TC_KERNEL := 5.1
