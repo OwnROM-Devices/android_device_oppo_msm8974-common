@@ -188,4 +188,6 @@ OWN_KRAIT := true
 
 OWN_PIPE := true
 
-TARGET_TC_KERNEL := 5.1
+TARGET_TC_KERNEL := 6.0-uber
+
+TARGET_TC_ROM := 5.1-uber
